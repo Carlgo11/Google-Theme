@@ -1,9 +1,12 @@
 /* ==UserStyle==
 @name           Google Clean
 @namespace      github.com/openstyles/stylus
-@version        0.0.1
+@version        0.0.2
 @description    Cleaned up Google theme. Light- & Dark-mode support.
 @author         Carlgo11
+@homepageURL    https://github.com/Carlgo11/Google-Theme
+@updateURL      https://raw.githubusercontent.com/Carlgo11/Google-Theme/master/google.css
+@license        GPLv3
 ==/UserStyle== */
 @-moz-document domain("google.com") {
   body, .g, html, input, .std, .wwUB2c {
