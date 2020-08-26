@@ -1,0 +1,11 @@
+/* ==UserStyle==
+@name           Google Clean UI
+@namespace      com/carlgo11/google
+@version        0.3.0
+@homepageURL    https://github.com/Carlgo11/Google-Theme
+@supportURL     https://github.com/Carlgo11/Google-Theme/issues
+@updateURL      https://carlgo11.github.io/Google-Theme/google.user.css
+@description    Clean Google UI theme with light- & dark-mode support.
+@author         Carlgo11 (https://carlgo11.com/)
+@license        GPLv3
+==/UserStyle== */

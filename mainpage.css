@@ -1,0 +1,103 @@
+@-moz-document domain("google.com") {
+  body, .g, html, input, .std, .wwUB2c {
+    font-family: 'SF Pro Text' !important;
+  }
+
+  h1, h2, h3 {
+    font-family: 'SF Pro Display' !important;
+  }
+
+  #footer, #footcnt {
+    display: none;
+  }
+
+  /* Search buttons */
+  .tfB0Bf {
+    display: none;
+  }
+
+  /* Lang options */
+  #gws-output-pages-elements-homepage_additional_languages__als {
+    display: none;
+  }
+
+  .sfbg {
+    background: initial;
+  }
+
+  /* Main search div */
+  .RNNXgb {
+    /* margin-top: 2.5vh;*/
+    /* ONLY ON MAIN PAGE */
+    border-radius: 0;
+    border: 1px solid #dfe1e5f7;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .13);
+  }
+
+  /* Report btn*/
+  #sbfblt {
+    display: none;
+  }
+
+  .erkvQe {
+    border: none;
+  }
+
+  .aajZCb {
+    border: none;
+    border-radius: 0;
+  }
+
+  #gb#gb a.gb_f, #gb#gb a.gb_g, #gb#gb span.gb_g {
+    color: inherit;
+  }
+
+  .kno-ecr-pt {
+    font-family: 'SF Pro Display';
+    font-size: 40px;
+    font-weight: 200 !important;
+  }
+
+  /* .g share btn */
+  .rsir2d {
+    display: none;
+  }
+
+  /* .g claim & feedback */
+  .rpBMYb.kno-ftr {
+    display: none;
+  }
+
+  #gbwa {
+    display: none;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background: #2e2e2e;
+      color: #eee;
+    }
+
+    .RNNXgb {
+      background: #444;
+      border: none;
+    }
+
+    .aajZCb {
+      background: #444;
+      color: #ccc !important;
+    }
+
+    .sbhl {
+      background: #555;
+      ;
+      cursor: pointer;
+    }
+
+    .sbl1 {
+      color: inherit;
+    }
+  }
+
+  @media (prefers-color-scheme: light) {}
+}
