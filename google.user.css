@@ -1,0 +1,283 @@
+/* ==UserStyle==
+@name           Google Clean UI
+@namespace      com/carlgo11/google
+@version        0.3.0
+@homepageURL    https://github.com/Carlgo11/Google-Theme
+@supportURL     https://github.com/Carlgo11/Google-Theme/issues
+@updateURL      https://carlgo11.github.io/Google-Theme/google.user.css
+@description    Clean Google UI theme with light- & dark-mode support.
+@author         Carlgo11 (https://carlgo11.com/)
+@license        GPLv3
+==/UserStyle== */ 
+ @-moz-document domain("google.com") {
+  body, .g, html, input, .std, .wwUB2c {
+    font-family: 'SF Pro Text' !important;
+  }
+
+  h1, h2, h3 {
+    font-family: 'SF Pro Display' !important;
+  }
+
+  #footer, #footcnt {
+    display: none;
+  }
+
+  /* Search buttons */
+  .tfB0Bf {
+    display: none;
+  }
+
+  /* Lang options */
+  #gws-output-pages-elements-homepage_additional_languages__als {
+    display: none;
+  }
+
+  .sfbg {
+    background: initial;
+  }
+
+  /* Main search div */
+  .RNNXgb {
+    /* margin-top: 2.5vh;*/
+    /* ONLY ON MAIN PAGE */
+    border-radius: 0;
+    border: 1px solid #dfe1e5f7;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .13);
+  }
+
+  /* Report btn*/
+  #sbfblt {
+    display: none;
+  }
+
+  .erkvQe {
+    border: none;
+  }
+
+  .aajZCb {
+    border: none;
+    border-radius: 0;
+  }
+
+  #gb#gb a.gb_f, #gb#gb a.gb_g, #gb#gb span.gb_g {
+    color: inherit;
+  }
+
+  .kno-ecr-pt {
+    font-family: 'SF Pro Display';
+    font-size: 40px;
+    font-weight: 200 !important;
+  }
+
+  /* .g share btn */
+  .rsir2d {
+    display: none;
+  }
+
+  /* .g claim & feedback */
+  .rpBMYb.kno-ftr {
+    display: none;
+  }
+
+  #gbwa {
+    display: none;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background: #2e2e2e;
+      color: #eee;
+    }
+
+    .RNNXgb {
+      background: #444;
+      border: none;
+    }
+
+    .aajZCb {
+      background: #444;
+      color: #ccc !important;
+    }
+
+    .sbhl {
+      background: #555;
+      ;
+      cursor: pointer;
+    }
+
+    .sbl1 {
+      color: inherit;
+    }
+  }
+
+  @media (prefers-color-scheme: light) {}
+}
+@-moz-document domain("google.com") {
+  body, .g, html, input, .std, .wwUB2c {
+    font-family: 'SF Pro Text' !important;
+  }
+
+  h1, h2, h3 {
+    font-family: 'SF Pro Display' !important;
+  }
+
+  #footer, #footcnt {
+    display: none;
+  }
+
+  /* Search buttons */
+  .tfB0Bf {
+    display: none;
+  }
+
+  /* Lang options */
+  #gws-output-pages-elements-homepage_additional_languages__als {
+    display: none;
+  }
+
+  .sfbg {
+    background: initial;
+  }
+
+  /* Main search div */
+  .RNNXgb {
+    /* margin-top: 2.5vh;*/
+    /* ONLY ON MAIN PAGE */
+    border-radius: 0;
+    border: 1px solid #dfe1e5f7;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .13);
+  }
+
+  /* Report btn*/
+  #sbfblt {
+    display: none;
+  }
+
+  .erkvQe {
+    border: none;
+  }
+
+  .aajZCb {
+    border: none;
+    border-radius: 0;
+  }
+
+  #gb#gb a.gb_f, #gb#gb a.gb_g, #gb#gb span.gb_g {
+    color: inherit;
+  }
+
+  .kno-ecr-pt {
+    font-family: 'SF Pro Display';
+    font-size: 40px;
+    font-weight: 200 !important;
+  }
+
+  /* .g share btn */
+  .rsir2d {
+    display: none;
+  }
+
+  /* .g claim & feedback */
+  .rpBMYb.kno-ftr {
+    display: none;
+  }
+
+  #gbwa {
+    display: none;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background: #2e2e2e;
+      color: #eee;
+    }
+
+    .RNNXgb {
+      background: #444;
+      border: none;
+    }
+
+    .aajZCb {
+      background: #444;
+      color: #ccc !important;
+    }
+
+    .sbhl {
+      background: #555;
+      ;
+      cursor: pointer;
+    }
+
+    .sbl1 {
+      color: inherit;
+    }
+  }
+
+  @media (prefers-color-scheme: light) {}
+}
+
+@-moz-document domain("google.com") {
+  .SnLWtb a {
+    display: none;
+  }
+
+  .RNNXgb {
+    border-radius: 0 !important;
+  }
+
+  .rhscol .I6TXqe {
+    border-radius: 2px;
+    padding: 5px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .rhscol .I6TXqe {
+      background: #43434363;
+    }
+
+    body {
+      background: #222;
+    }
+
+    .gLFyf {
+      color: #fff;
+    }
+
+    .kno-ecr-pt {
+      color: #fff;
+    }
+
+    .RNNXgb {
+      background: #444;
+      color: #ccc;
+    }
+
+    #appbar, #hdtb, #hdtbSum, #hdtb .hdtb-mitem a {
+      background: inherit;
+      color: #fff !important;
+    }
+
+    .s, .s .st em, .st.s.std em, .hb8SAc, .r3IKmc, .SW5pqf, .Ss2Faf a, .Ss2Faf, .wqg8ad {
+      color: #ccc !important;
+    }
+
+    .w8qArf .fl {
+      color: #ddd !important;
+    }
+
+    a, .a, cite, cite a:link, cite a:visited, .cite, .cite:link, .bc a:link, .wUrVib, .EZRelc, .JolIg {
+      color: inherit;
+    }
+
+    a.fl:link, .fl a, .gl a:link, #brs .med {
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .minidiv .sfbg {
+      background: #787878a1;
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+    }
+  }
+}
